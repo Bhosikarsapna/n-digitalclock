@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #17d4ef;
+    height: 100vh; /*due to less content thats why we takes height */
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.digitalClock{
+    /* text-shadow: 10px 10px 20px #17d4ef; */
+    height: 200px;
+    width: 800px;
+    border: 25px solid lawngreen;
+    box-shadow: 2px 2px 2px 25px white;
+    text-align: center;
+    padding: 21px;
+    border-radius: 5px;
+    text-shadow: 10px 10px 40px white;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
